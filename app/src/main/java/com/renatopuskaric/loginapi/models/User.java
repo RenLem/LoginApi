@@ -51,8 +51,17 @@ public class User {
    @ColumnInfo(name = "statusId")
    private float statusId;
 
-   public User(float id) {
+   public User(float id, String name, String surname, String fullName, float imageId, String address, String phoneNumber, String oib, String email, float statusId) {
       this.id = id;
+      this.name = name;
+      this.surname = surname;
+      this.fullName = fullName;
+      this.imageId = imageId;
+      this.address = address;
+      this.phoneNumber = phoneNumber;
+      this.oib = oib;
+      this.email = email;
+      this.statusId = statusId;
    }
 
    // Getter Methods
